@@ -58,7 +58,7 @@
 }
 .close-button:hover .close-button-icon,
 .close-button:focus .close-button-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
   cursor: pointer;
 }
 .input-div {
@@ -70,7 +70,7 @@
   font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 
   margin-bottom: 30px;
   margin-left: auto;
@@ -82,7 +82,7 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.01em;
-  color: var(--description-text-color);
+  color: $description-text-color;
 }
 .contact-form-input[placehoder],
 .checkbox-input[placehoder] {
@@ -100,7 +100,7 @@
   margin-bottom: 11px;
   margin-right: 8px;
 
-  fill: var(--title-text-color);
+  fill: $title-text-color;
 }
 .contact-form-label {
   position: absolute;
@@ -111,26 +111,26 @@
   margin-top: 12px;
   margin-bottom: 12px;
 
-  color: var(--description-text-color);
+  color: $description-text-color;
   transition: 250ms;
 }
 .contact-form-input:focus,
 .user-comment:focus {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 .contact-form-input:focus ~ .contact-form-label,
 .contact-form-input:not(:placeholder-shown) ~ .contact-form-label {
-  color: var(--accent-color);
+  color: $accent-color;
   transform: translateY(-30px) translateX(-28px);
 }
 .contact-form-input:focus ~ .input-icon,
 .contact-form-input:not(:placeholder-shown) ~ .input-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .user-comment:focus ~ .comment-label,
 .user-comment:not(:placeholder-shown) ~ .comment-label{
-  color: var(--accent-color);
+  color: $accent-color;
   transform: translateY(-31px) translateX(-2px);
   margin: 0;
 }
@@ -157,7 +157,7 @@ display: hidden;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.01em;
-  color: var(--description-text-color);
+  color: $description-text-color;
 
   transition: 250ms;
   padding-left: 16px;
@@ -190,7 +190,7 @@ display: hidden;
   position: absolute;
 }
 .checkbox-input:checked ~ .checkbox-icon {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   border: none;
 }
 .checkbox-label {
@@ -203,7 +203,7 @@ display: hidden;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.01em;
-  color: var(--description-text-color);
+  color: $description-text-color;
 }
 .checkbox-icon {
   box-sizing: border-box;
@@ -223,7 +223,7 @@ display: hidden;
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   width: 200px;
   height: 50px;
   outline: none;

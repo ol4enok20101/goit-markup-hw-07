@@ -1,18 +1,18 @@
 /*Хедер*/
 .logo-link-header {
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
 
   padding-top: 24px;
   padding-bottom: 25px;
   margin-right: 85px;
 }
 .logo-studio-header {
-  color: var(--logo-studio-header);
+  color: $logo-studio-header;
 }
 .header-address {
   display: flex;
@@ -23,7 +23,7 @@
   font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--description-text-color);
+  color: $description-text-color;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -37,7 +37,7 @@
 }
 .company-address-header:hover,
 .company-address-header:focus {
-  color: var(--accent-color);
+  color: $accent-color;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-link-block {
@@ -51,7 +51,7 @@
   font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--section-title-color);
+  color: $section-title-color;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -60,7 +60,7 @@
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .header .container {
   display: flex;

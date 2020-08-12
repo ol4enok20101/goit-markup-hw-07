@@ -1,6 +1,6 @@
 /*Наша команда*/
 .team {
-  background-color: var(--background-grey-color);
+  background-color: $background-grey-color;
 
   padding-top: 94px;
   padding-bottom: 107px;
@@ -11,7 +11,7 @@
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 
   margin-bottom: 37px;
 }
@@ -31,14 +31,14 @@
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 
   display: flex;
   justify-content: center;
 }
 .team-member-position {
   font-weight: 400;
-  color: var(--description-text-color);
+  color: $description-text-color;
   margin-bottom: 16px;
 
   display: flex;
@@ -70,7 +70,7 @@
 }
 .team-member-link:hover,
 .team-member-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .team-member-link-icon {
   width: 20px;
@@ -79,7 +79,7 @@
 }
 .team-member-link:hover .team-member-link-icon,
 .team-member-link:focus .team-member-link-icon{
-  fill: var(--accent-text);
+  fill: $accent-text;
 }
 .team-members-list {
   display: flex;

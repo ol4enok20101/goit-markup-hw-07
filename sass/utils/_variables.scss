@@ -10,15 +10,13 @@ background: #FFFFFF; белый
 background: #F5F4FA; серый
 background: #2F303A; темный
 */
-:root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
-  --section-title-color: #212121;
-  --accent-color: #2196f3;
-  --accent-text: #ffffff;
-  --logo-studio-header: #000000;
-  --description-text-color: #757575;
-  --title-text-color: #212121;
-  --background-dark-color: #2f303a;
-  --background-grey-color: #f5f4fa;
-}
+  $main-font: "Roboto", sans-serif;
+  $secondary-font: "Raleway", sans-serif;
+  $section-title-color: #212121;
+  $accent-color: #2196f3;
+  $accent-text: #ffffff;
+  $logo-studio-header: #000000;
+  $description-text-color: #757575;
+  $title-text-color: #212121;
+  $background-dark-color: #2f303a;
+  $background-grey-color: #f5f4fa;

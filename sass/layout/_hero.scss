@@ -21,7 +21,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--accent-text);
+  color: $accent-text;
 
   margin-bottom: 30px;
 }
@@ -31,7 +31,7 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   width: 200px;
   height: 50px;
   outline: none;

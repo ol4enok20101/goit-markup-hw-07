@@ -29,9 +29,9 @@
 }
 .client-logo-link:hover,
 .client-logo-link:focus {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 .client-logo-link:hover .client-logo-svg,
 .client-logo-link:focus .client-logo-svg{
-  fill: var(--accent-color);
+  fill: $accent-color;
 }

@@ -10,7 +10,7 @@
   font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--accent-text);
+  color: $accent-text;
 
   display: block;
   margin-bottom: 9px;
@@ -22,7 +22,7 @@
   font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--description-text-color);
+  color: $description-text-color;
 
   display: block;
   margin-bottom: 9px;
@@ -35,19 +35,19 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--accent-text);
+  color: $accent-text;
 
   display: block;
   margin-bottom: 20px;
 }
 .logo-link-footer {
   /*логотип в футере*/
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
+  color: $accent-color;
 
   display: block;
   margin-bottom: 20px;
@@ -75,7 +75,7 @@
 }
 .join-logo-link:hover,
 .join-logo-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .join-logo-link:not(last-child) {
   margin-right: 10px;
@@ -92,7 +92,7 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   width: 200px;
   height: 50px;
   outline: none;
@@ -112,7 +112,7 @@
 .subscribe-input {
   width: 358px;
   height: 50px;
-  background-color: var(--background-dark-color);
+  background-color: $background-dark-color;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -132,5 +132,5 @@
   display: flex;
 }
 .footer {
-  background-color: var(--background-dark-color);
+  background-color: $background-dark-color;
 }
