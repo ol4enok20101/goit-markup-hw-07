@@ -2,18 +2,21 @@
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
+  .section-title {
+  margin-bottom: 50px;
+}
 }
 .clients-list {
   display: flex;
   justify-content: space-around;
 }
-.clients .section-title {
-  margin-bottom: 50px;
-}
 .client-logo-svg {
   fill: #AFB1B8;
-
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .client-logo-link:hover &,
+  .client-logo-link:focus & {
+  fill: $accent-color;
+}
 }
 .client-logo-link {
   width: 170px;
@@ -26,12 +29,9 @@
   align-items: center;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client-logo-link:hover,
-.client-logo-link:focus {
+  &:hover,
+  &:focus {
   border-color: $accent-color;
 }
-.client-logo-link:hover .client-logo-svg,
-.client-logo-link:focus .client-logo-svg{
-  fill: $accent-color;
 }
+

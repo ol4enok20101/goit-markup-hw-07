@@ -1,4 +1,16 @@
 /*Хедер*/
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation-list {
+  display: flex;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
 .logo-link-header {
   font-family: $secondary-font;
   font-weight: 700;
@@ -29,16 +41,17 @@
 
   display: flex;
   align-items: center;
+
+    &:hover,
+    &:focus {
+    color: $accent-color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 .company-address-svg {
   fill: currentColor;
   /*внимательно*/
   margin-right: 10px;
-}
-.company-address-header:hover,
-.company-address-header:focus {
-  color: $accent-color;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-link-block {
   margin-right: 31px;
@@ -57,21 +70,14 @@
 
   padding-top: 32px;
   padding-bottom: 32px;
+
+    &:hover,
+    &:focus {
+    color: $accent-color;
+  }
 }
-.navigation-list-link:hover,
-.navigation-list-link:focus {
-  color: $accent-color;
-}
-.header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.navigation-list {
-  display: flex;
-}
-.navigation-list-item:not(:last-child) {
-  margin-right: 50px;
+.navigation-list-link .current {
+  color:#2196F3;
 }
 .current::after {
   position: absolute;
@@ -85,10 +91,6 @@
 
   display: block;
 }
-.navigation-list-link.current {
-  color:#2196F3;
-}
-.navigation {
-  display: flex;
-  align-items: center;
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
 }

@@ -2,6 +2,9 @@
 .activities {
   padding-top: 0;
   padding-bottom: 67px;
+  .section-title {
+  margin-bottom: 50px;
+}
 }
 .activities-list {
   display: flex;
@@ -9,6 +12,9 @@
 }
 .activities-list-item {
   position: relative;
+  &:not(:last-child) {
+  margin-right: 30px;
+}
 }
 .activities-list-item-name {
   position: absolute;
@@ -29,10 +35,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.activities .section-title {
-  margin-bottom: 50px;
-}
-.activities-list-item:not(:last-child) {
-  margin-right: 30px;
 }
