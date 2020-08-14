@@ -104,12 +104,13 @@
   height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
-}
-.portfolio-example-list-item:nth-child(3n) {
-  margin-right: 0;
-}
-.portfolio-example-list-item:nth-child(n + 7) {
-  margin-bottom: 0;
+
+    &:nth-child(3n) {
+    margin-right: 0;
+  }
+    &:nth-child(n + 7) {
+    margin-bottom: 0;
+  }
 }
 .portfolio-card {
   position: relative;

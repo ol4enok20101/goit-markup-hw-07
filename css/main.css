@@ -914,7 +914,7 @@ img {
   background-color: #2196f3;
 }
 
-.join-logo-link:hover:not(last-child), .join-logo-link:focus:not(last-child) {
+.join-logo-link:not(last-child) {
   margin-right: 10px;
 }
 
